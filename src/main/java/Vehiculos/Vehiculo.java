@@ -90,6 +90,6 @@ public class Vehiculo {
 	
 	//metodos vehiculosportipo
 	public String vehiculosPorTipo() {
-		return "Automóviles: "+Automovil.getCantidadAutomoviles()+"\nCamionetas: "+Camioneta.getCantidadCamionetas()+"\nCamiones: "+Camion.getCantidadCamiones();
+		return "Automoviles: "+Automovil.getCantidadAutomoviles()+"\nCamionetas: "+Camioneta.getCantidadCamionetas()+"\nCamiones: "+Camion.getCantidadCamiones();
 }
 }
