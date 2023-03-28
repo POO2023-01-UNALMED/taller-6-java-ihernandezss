@@ -77,16 +77,20 @@ public class Vehiculo {
 		return peso;}
 	
 	public String getTraccion () {
-		return traccion;}
+		return traccion;
+	}
 	
 	public Fabricante getFabricante () {
-		return fabricante;}
+		return fabricante;
+	}
 	
 	public void setCantidadVehiculos(int CantidadVehiculos) {
-		Vehiculo.CantidadVehiculos=CantidadVehiculos;}
+		Vehiculo.cantidadVehiculos=cantidadVehiculos;
+	}
 	
 	public int getCantidadVehiculos () {
-		return Vehiculo.CantidadVehiculos;}
+		return Vehiculo.cantidadVehiculos;
+	}
 	
 	//metodos vehiculosportipo
 	public String vehiculosPorTipo() {
