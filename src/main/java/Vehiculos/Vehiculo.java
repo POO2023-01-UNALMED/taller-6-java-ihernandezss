@@ -84,11 +84,11 @@ public class Vehiculo {
 		return fabricante;
 	}
 	
-	public void setCantidadVehiculos(int CantidadVehiculos) {
+	public static void setCantidadVehiculos(int CantidadVehiculos) {
 		Vehiculo.cantidadVehiculos=cantidadVehiculos;
 	}
 	
-	public int getCantidadVehiculos () {
+	public static int getCantidadVehiculos () {
 		return Vehiculo.cantidadVehiculos;
 	}
 	
