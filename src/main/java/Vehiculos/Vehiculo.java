@@ -3,7 +3,7 @@ package vehiculos;
 public class Vehiculo {
 	private String placa;
 	private int puertas;
-	private int velocidadMaxima;
+	private int VelocidadMaxima;
 	private String nombre;
 	private int precio;
 	private int peso;
@@ -12,10 +12,10 @@ public class Vehiculo {
 	private static int cantidadVehiculos;
 	
 	
-	public Vehiculo(String placa,int puertas,int velocidadMaxima,String nombre,int precio,int peso,String traccion,Fabricante fabricante) {
+	public Vehiculo(String placa,int puertas,int VelocidadMaxima,String nombre,int precio,int peso,String traccion,Fabricante fabricante) {
 		this.placa=placa;
 		this.puertas=puertas;
-		this.velocidadMaxima=velocidadMaxima;
+		this.VelocidadMaxima=VelocidadMaxima;
 		this.nombre=nombre;
 		this.precio=precio;
 		this.peso=peso;
@@ -40,8 +40,8 @@ public class Vehiculo {
 	public void setPuertas(int puertas) {
 		this.puertas = puertas;}
 	
-	public void setvelocidadMaxima(int velocidadMaxima) {
-		this.velocidadMaxima = velocidadMaxima;}
+	public void setVelocidadMaxima(int VelocidadMaxima) {
+		this.VelocidadMaxima = VelocidadMaxima;}
 	
 	public void setNombre(String nombre) {
 		this.nombre=nombre;}
@@ -64,8 +64,8 @@ public class Vehiculo {
 	public int getPuertas() {
 		return puertas;}
 	
-	public int getvelocidadMaxima () {
-		return velocidadMaxima;}
+	public int getVelocidadMaxima () {
+		return VelocidadMaxima;}
 	
 	public String getNombre() {
 		return nombre;}
